@@ -188,6 +188,41 @@ h1,h2{
 	margin: 0 20px 0 60px;
 	font-weight: 800;
 }
+.services-box{
+	margin: 10px;
+}
+.services-title{
+    display: block;
+    background: url(../images/services_atlas.svg) no-repeat;
+    background-size: 890px;
+    text-decoration: none;
+    padding: 75px 15px 20px 15px;
+    margin: 0 auto;
+    color: #bd2c30;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.consulting-icon{
+	background-position: -20px 0;
+}
+.planning-icon{
+	background-position: -170px 0;
+}
+.development-icon{
+	background-position: -315px 0;
+}
+.production-icon{
+	background-position: -485px 0;
+}
+.analysis-icon{
+	background-position: -630px 0;
+}
+.release-icon{
+	background-position: -785px 0;
+}
+
 @media screen and (min-width: 768px){
 	.header{
 		border-bottom: 10px solid #bd2d30;
