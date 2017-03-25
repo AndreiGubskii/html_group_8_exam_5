@@ -11,6 +11,12 @@ btn_menu.click(function () {
 	return false;
 });
 
+//Slick
+$(".slider").slick({
+        dots: false,
+        mobileFirst: true
+    });
+
 function showMenu(){
 	menu.show();
 	menu.animate({right: "0"},300);

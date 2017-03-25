@@ -50,6 +50,49 @@ h1,h2{
 	color: #fff;
 }
 
+.slick-prev{
+	background: url(../images/chevron-sprite.svg)  10px 8px no-repeat, #d34346;
+	background-size: 80px;
+	left: 0;
+}
+.slick-next{
+	background: url(../images/chevron-sprite.svg) -50px 8px no-repeat, #d34346;
+	background-size: 80px;
+	
+	right: 0;
+}
+.slide{
+	position: relative;
+}
+.slider-description{
+	display: block;
+	max-width: 570px;
+	position: absolute;
+	bottom: 0;
+	left: 139px;
+	z-index: 10;
+	color: #fff;
+}
+.slider-description-title{
+	display: block;
+	width: 100%;
+	border-left: 10px solid #be3639;
+	background: #d05054;
+	margin: 0;
+	font-size: 25px;
+	line-height: 30px;
+	padding: 15px;
+}
+.slider-description-text{
+	display: block;
+	width: 100%;
+	border-left: 10px solid #2b3945;
+	background: #3f5163;
+	font-size: 16px;
+	line-height: 24px;
+	padding: 15px;
+}
+
 @media screen and (min-width: 768px){
 	.header{
 		border-bottom: 10px solid #bd2d30;
