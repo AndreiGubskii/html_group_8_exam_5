@@ -1,5 +1,6 @@
 body{
 	font-family: 'Open Sans', sans-serif;
+	background: #efefef;
 }
 *{
 	box-sizing: border-box;
@@ -130,6 +131,63 @@ h1,h2{
 	background-image: url(../images/people-icon.svg);
 }
 
+.red-block{
+	background-color: #d34346;
+	border-left: 10px solid #c62f31;
+}
+.dark-block{
+	background-color: #314559;
+	border-left: 10px solid #18222b;
+}
+.about-box{
+	margin: 5px;
+}
+.section-title{
+	padding: 10px 10px 10px 20px;
+	color: #fff;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+.section-title-about{
+	color: #314559;
+	padding: 10px 10px 10px 0;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: 800;
+}
+.about-text{
+	margin: 15px 0;
+}
+.arrow-left{
+	background: url(../images/arrow-right.svg) left 5px no-repeat;
+	background-size: 10px;
+	padding-left: 20px
+}
+.quote{
+	background: #fff;
+	padding: 20px;
+	font-style: italic;
+	position: relative;
+}
+.quote::after{
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: -20px;
+	left: 30px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 20px 20px 0;
+	border-color: transparent #ffffff transparent transparent;
+}
+.quote-author{
+	color: #bd2c30;
+	margin: 0 20px 0 60px;
+	font-weight: 800;
+}
 @media screen and (min-width: 768px){
 	.header{
 		border-bottom: 10px solid #bd2d30;
