@@ -219,10 +219,36 @@ h1,h2{
 .analysis-icon{
 	background-position: -630px 0;
 }
+.newsletter{
+	background: #fff;
+}
 .release-icon{
 	background-position: -785px 0;
 }
-
+.newsletter-box{
+	max-width: 490px;
+	padding: 10px;
+}
+.newsletter-img{
+	max-width: 210px;
+	padding: 10px;
+}
+.signup{
+	text-decoration: none;
+	font-size: 18px;
+	color: #314559;
+	font-weight: 700;
+}
+.footer{
+	display: block;
+	width: 100%;
+	background: #314559;
+}
+.coppyrite{
+	padding: 20px 0 10px 0;
+	font-size: 14px;
+	color: #fff;
+}
 @media screen and (min-width: 768px){
 	.header{
 		border-bottom: 10px solid #bd2d30;
